@@ -7,7 +7,7 @@ app.post('/incoming-call', async (req, res) => {
   
   let xmlResponse = `<?xml version="1.0" encoding="UTF-8"?>
   <Response>
-    <Say>Hej! Välkommen till vår företag. AI receptionisten är under uppbyggnad.</Say>
+    <Say>Hej! Välkommen till vårt företag. AI receptionisten är under uppbyggnad. Vänligen ring tillbaka senare.</Say>
   </Response>`;
   
   res.set('Content-Type', 'application/xml');
